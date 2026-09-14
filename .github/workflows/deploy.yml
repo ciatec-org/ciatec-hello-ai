@@ -10,5 +10,4 @@ jobs:
     with:
       project_name: ciatec-hello
       port: 8001
-
-secrets: inherit
+    secrets: inherit
