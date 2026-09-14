@@ -1,0 +1,12 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    uses: ciatec-org/ciatec-devops/.github/workflows/deploy-ai-project.yml@main
+    with:
+      project_name: ciatec-hello
+      port: 8001
